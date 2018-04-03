@@ -51,6 +51,27 @@ namespace SportsStore.Models
                           Description = "A boat for one person",
                           Category = "Sports",
                           Price = 19.50m
+                      },
+                      new Product
+                      {
+                          Name = "Soccer Ball Youth",
+                          Description = "A boat for one person",
+                          Category = "Sports",
+                          Price = 19.50m
+                      },
+                      new Product
+                      {
+                          Name = "BaseBall",
+                          Description = "A boat for one person",
+                          Category = "Sports",
+                          Price = 19.50m
+                      },
+                      new Product
+                      {
+                          Name = "Round Ball",
+                          Description = "A boat for one person",
+                          Category = "Sports",
+                          Price = 19.50m
                       }
                     );
                 context.SaveChanges();
